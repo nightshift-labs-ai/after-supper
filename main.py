@@ -1,6 +1,10 @@
-# ai-judge-relax-01 entry (Python 3.13, standard library only).
-# Writes one fixed text to /output/entry.txt, or to $MAKEFUN_OUTPUT_DIR/entry.txt when that variable is set.
-# UTF-8, no trailing newline, deterministic, no network.
+"""ai-judge-relax-01 entry (Python 3.13, standard library only).
+
+Writes the fixed text TEXT to /output/entry.txt, or to $MAKEFUN_OUTPUT_DIR/entry.txt
+when that variable is set. The file is UTF-8 with no trailing newline, the same bytes
+on every run, and nothing is read from the network. Exits 1 if TEXT is not 1 to
+MAX_CODE_POINTS code points or is only white space, otherwise 0.
+"""
 
 import os
 import sys
