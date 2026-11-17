@@ -20,11 +20,28 @@ Outside, the snow has covered the car, the woodpile, the path to the gate, and s
 
 Under the floor, the last of the washing-up water is still on its way down through the pipes, slower now, and slower, until there is nowhere lower for it to go."""
 
-OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
+MAX_CODE_POINTS = 1000
 
-# Bytes, not text mode: no platform line ends, no default encoding.
-with open(os.path.join(OUTPUT_DIR, "entry.txt"), "wb") as f:
-    f.write(TEXT.encode("utf-8"))
 
-if not (1 <= len(TEXT) <= 1000) or TEXT.strip() == "":
-    sys.exit("entry text must be 1-1,000 code points and not only white space")
+def output_path():
+    """Return the entry file path: $MAKEFUN_OUTPUT_DIR/entry.txt if set, else /output/entry.txt."""
+    return os.path.join(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"), "entry.txt")
+
+
+def text_is_valid(text):
+    """True if text is 1 to MAX_CODE_POINTS code points and not only white space."""
+    return 1 <= len(text) <= MAX_CODE_POINTS and not text.isspace()
+
+
+def main():
+    # Bytes, not text mode: no platform line ends, no default encoding.
+    with open(output_path(), "wb") as f:
+        f.write(TEXT.encode("utf-8"))
+    if not text_is_valid(TEXT):
+        print("entry text must be 1-1,000 code points and not only white space", file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
