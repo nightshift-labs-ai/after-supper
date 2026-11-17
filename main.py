@@ -10,17 +10,19 @@ import os
 import sys
 
 TEXT = """\
-The porch boards give back the day's heat slowly, the way they took it in.
+The duck comes down onto the pond with a short scrape of water. Rings go out from her and reach the reeds and stop.
 
-Past the steps, in the long grass, the crickets keep count. At dusk they are quick, one bright thread of sound with no gaps in it. As the air cools, they slow. A cricket can only sing as fast as the night is warm.
+She paddles to the middle, where the last light lies flat. She dips her bill, lifts it, and the water runs off in drops. One. Two. A while later, one more.
 
-Mae sits in the cane chair with her shoes off and her heels on the rail. Her father taught her the sum: the chirps in fourteen seconds, plus forty, is the warmth of the air. She counts without meaning to. Thirty. Later, twenty-four. Later, seventeen.
+She shakes her wings out and folds them, the brown over the blue, and settles a little lower in the water.
 
-The gaps open. A chirp, a long breath of nothing, a chirp.
+Then she turns her head and lays her bill along her back, deep in the feathers. One eye stays open. It closes. Later it opens, finds the reeds still there, and closes again.
 
-The moth on the screen door has stopped trying for the kitchen light.
+Under the water her feet keep moving, slower each time. Then once. Then not.
 
-By the time the boards are as cool as the air, Mae is asleep in the chair. One cricket by the bottom step is still at it, slower than her heartbeat now, letting the last of the day out of the grass one note at a time."""
+The light goes off the pond. A small wind crosses it and turns her halfway round, as it would a leaf.
+
+All night the water carries her a little this way and a little that way, and never anywhere at all."""
 
 MAX_CODE_POINTS = 1000
 

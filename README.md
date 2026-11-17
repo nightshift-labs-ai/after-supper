@@ -26,9 +26,9 @@ Without `MAKEFUN_OUTPUT_DIR`, it writes to `/output/entry.txt`.
 
 ## The text
 
-**Crickets Cooling**: 891 characters (Unicode code points), 891 bytes in UTF-8.
+**Evening Pond: a duck settles on the water for the night**: 837 characters (Unicode code points), 837 bytes in UTF-8.
 
-A girl dozes on a warm porch at dusk while the crickets' chirping slows as the night air cools.
+A duck lands on a pond at dusk, tucks her bill into her feathers and drifts to sleep on the still water.
 
 ## License
 
