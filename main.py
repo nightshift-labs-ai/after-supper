@@ -10,19 +10,17 @@ import os
 import sys
 
 TEXT = """\
-The plates are washed and stacked, the blue one on top.
-The pan is back on its hook.
-The bread is wrapped in a tea towel.
-The rest of the soup is in a jar, the lid turned until it stopped.
-The table is wiped, the crumbs saved in a saucer for the morning sparrows.
-The chairs are pushed in.
-The dog has had her walk. She is asleep by the radiator, one ear turned inside out.
-The letters are answered. The one that can wait is face down on the shelf, waiting.
-The clock in the hall keeps time on its own.
-Upstairs, someone has already turned out the lamp.
-Outside, the snow has covered the car, the woodpile, the path to the gate, and stopped.
+The porch boards give back the day's heat slowly, the way they took it in.
 
-Under the floor, the last of the washing-up water is still on its way down through the pipes, slower now, and slower, until there is nowhere lower for it to go."""
+Past the steps, in the long grass, the crickets keep count. At dusk they are quick, one bright thread of sound with no gaps in it. As the air cools, they slow. A cricket can only sing as fast as the night is warm.
+
+Mae sits in the cane chair with her shoes off and her heels on the rail. Her father taught her the sum: the chirps in fourteen seconds, plus forty, is the warmth of the air. She counts without meaning to. Thirty. Later, twenty-four. Later, seventeen.
+
+The gaps open. A chirp, a long breath of nothing, a chirp.
+
+The moth on the screen door has stopped trying for the kitchen light.
+
+By the time the boards are as cool as the air, Mae is asleep in the chair. One cricket by the bottom step is still at it, slower than her heartbeat now, letting the last of the day out of the grass one note at a time."""
 
 MAX_CODE_POINTS = 1000
 

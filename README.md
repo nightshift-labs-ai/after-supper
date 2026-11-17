@@ -26,7 +26,9 @@ Without `MAKEFUN_OUTPUT_DIR`, it writes to `/output/entry.txt`.
 
 ## The text
 
-803 characters (Unicode code points), 803 bytes in UTF-8.
+**Crickets Cooling**: 891 characters (Unicode code points), 891 bytes in UTF-8.
+
+A girl dozes on a warm porch at dusk while the crickets' chirping slows as the night air cools.
 
 ## License
 
