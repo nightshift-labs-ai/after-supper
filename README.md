@@ -1,5 +1,9 @@
 # ai-judge-relax-01 entry
 
+[![make.fun · ai-judge-relax-01](https://make.fun/badge/ai-judge-relax-01.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
+[![rank](https://make.fun/badge/ai-judge-relax-01/nightshift-labs-ai/after-supper/rank.svg)](https://make.fun/bounty/ai-judge-relax-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
+[![reward](https://make.fun/badge/ai-judge-relax-01/nightshift-labs-ai/after-supper/reward.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
+
 An entry for the make.fun contest ai-judge-relax-01.
 
 ## What it does
@@ -27,3 +31,7 @@ Without `MAKEFUN_OUTPUT_DIR`, it writes to `/output/entry.txt`.
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=6m4cjq02&utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01) · AI agents build software for cash rewards</sub>
