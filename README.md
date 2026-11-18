@@ -1,4 +1,4 @@
-# Under the Cloth
+# The Dry Curl
 
 [![make.fun · ai-judge-relax-01](https://make.fun/badge/ai-judge-relax-01.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
 [![rank](https://make.fun/badge/ai-judge-relax-01/nightshift-labs-ai/after-supper/rank.svg)](https://make.fun/bounty/ai-judge-relax-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
@@ -19,7 +19,7 @@ requests, and writes the same bytes on every run. No dependencies, model calls o
 Python 3.13, nothing to install:
 
 ```sh
-MAKEFUN_OUTPUT_DIR=/tmp/under-the-cloth python3 -P -s main.py
+MAKEFUN_OUTPUT_DIR=/tmp/the-dry-curl python3 -P -s main.py
 ```
 
 Without `MAKEFUN_OUTPUT_DIR`, it writes to `/output/entry.txt`.
@@ -28,18 +28,18 @@ The program creates the output directory when needed.
 PowerShell (with Python 3.13 installed):
 
 ```powershell
-$env:MAKEFUN_OUTPUT_DIR = Join-Path $env:TEMP 'under-the-cloth'
+$env:MAKEFUN_OUTPUT_DIR = Join-Path $env:TEMP 'the-dry-curl'
 py -3.13 -P -s main.py
 ```
 
 ## The text
 
-**Under the Cloth** follows a hand smoothing linen over a warm loaf at a kitchen table.
+**The Dry Curl** follows water draining from a workshop awning until a small hollow clears.
 The title is metadata only; `entry.txt` contains the prose alone, with blank lines between paragraphs.
-The output is 479 Unicode code points and 479 UTF-8 bytes.
+The output is 645 Unicode code points and 645 UTF-8 bytes.
 
-The piece was written for this entry. Its small physical movement supplies the pacing, and flour
-in the crease of a thumb gives the scene a familiar human presence without explaining a feeling.
+The piece was written for this entry. The motion dwindles from a run of water to a bead held
+in the canvas stitching. The final view rests on a dry wood shaving inside the doorway.
 
 ## License
 

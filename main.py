@@ -1,19 +1,20 @@
-"""Write the original contest piece Under the Cloth."""
+"""Write the original contest piece The Dry Curl."""
 
 import os
 from pathlib import Path
 
 
 ENTRY = (
-    "The bread is still warm beneath the linen cloth.\n\n"
-    "She sits across from me, sleeves rolled to her elbows. A little flour "
-    "remains in the crease of her thumb. She lifts one corner of the cloth, "
-    "and the smell of the crust comes across the table.\n\n"
-    "She lowers the corner again. Her palm follows the round of the loaf, "
-    "drawing the linen down along its sides. A loose fold settles on the "
-    "wooden board.\n\n"
-    "Her hand stays there, and I rest mine beside it. The warmth comes "
-    "through the cloth."
+    "The awning outside the workshop is drying. A thin run of water follows "
+    "the canvas seam to its lowest corner and falls onto the paving.\n\n"
+    "It has hollowed a little place in the dust between two stones. The water "
+    "gathers there, brown at the edges, clear in the middle. A blade of grass "
+    "lies along the bottom.\n\n"
+    "The run thins to drops. The ripples spread to the edges of the hollow "
+    "and flatten. A bead hangs in the stitching of the hem. Below it, the "
+    "blade of grass shows through the water from end to end.\n\n"
+    "Just inside the open doorway, a curl of wood rests on the dark sill. "
+    "Its loose end turns up a little. A few grains of sawdust lie in the curve."
 )
 
 
